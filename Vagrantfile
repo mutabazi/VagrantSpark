@@ -4,7 +4,7 @@
 Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/trusty64"
   config.vm.provision :shell, path: "bootstrap.sh"
-  config.vm.provision :shell, path: "install-java7-ubuntu.sh"
+  config.vm.provision :shell, path: "install-java8-ubuntu.sh"
   config.vm.provision :shell, path: "install-scala-ubuntu.sh"
   config.vm.provision :shell, path: "install-spark-ubuntu.sh"
   config.vm.provision :shell, path: "install-ubuntu-desktop.sh"
