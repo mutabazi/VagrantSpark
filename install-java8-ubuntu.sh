@@ -10,3 +10,6 @@ echo debconf shared/accepted-oracle-license-v1-1 seen true | \
 sudo apt-get -y install oracle-java8-installer
 # Webupd8 ppa repository also provides a package to set environment variables, Install this package using the following command:
 sudo apt-get -y install oracle-java8-set-default
+
+# Install commonly used python scipy tools
+# sudo apt-get -y install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
